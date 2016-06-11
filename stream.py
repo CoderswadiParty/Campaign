@@ -12,10 +12,10 @@ from httplib import IncompleteRead
 # import matplotlib.pyplot as plt
 
 #Variables that contains the user credentials to access Twitter API
-access_token = "569187100-JNgzMZAa8wY8Y0JraFNQzqPuYPBmEH7BLzk3YiE4"
-access_token_secret = "0dS8L202e6HobfGhts4Vn3Z818mz5sjThYeH8M9vKJVyq"
-consumer_key = "sFH28qEj9uf9zWt8Ecws9h8jS"
-consumer_secret = "0lkJlb2jBVNeahQ40EZs84W7mhjmXLWF12AGQpqDBI8yj1pffY"
+access_token = "569187100-XVylAET8eBGLp1ZziP7IkTOfH3VjMD12EW09vnPI"
+access_token_secret = "ngL3kkxjVF5Vm2cQ7oRyRRAat31QdBNf3CwAzIizWvIuZ"
+consumer_key = "Zk79jMXb0IOfB60DU8DQnliBy"
+consumer_secret = "DbIiB6PRalUZCHfw18DU2XjwUU3TEkk0ql2otHUVqKW8fvdgPB"
 
 tweets = []
 
@@ -29,7 +29,7 @@ class StdOutListener(StreamListener):
 	def on_data(self, data):
 		t2 = time.time()
 		# print t2 - t1
-		if t2 - t1 < 5:
+		if t2 - t1 < 10:
 
 			json_load = json.loads(data)
 			# if json_load["text"][:2] != "RT" and json_load["retweeted"] == False:
@@ -81,3 +81,7 @@ if __name__ == '__main__':
 def getTweets():
 	main()
 	return tweets
+	# for tweet in tweets:
+	# 	print tweet
+
+#getTweets()

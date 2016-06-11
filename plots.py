@@ -5,6 +5,7 @@ import numpy as np
 import time
 from datetime import datetime
 import random
+import sentiment
 
 stream_ids = tls.get_credentials_file()['stream_ids']
 stream_id = stream_ids[0]
@@ -42,26 +43,27 @@ s.open()
 # (*) Import module keep track and format current time
 import datetime
 import time
+import sentiment
 
 i = 0    # a counter
 k = 5    # some shape parameter
 
-# Delay start of stream by 5 sec (time to switch tabs)
-time.sleep(5)
+
 
 while True:
 
-   # Current time on x-axis, random numbers on y-axis
-   x = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
-   y = (np.cos(k*i/50.)*np.cos(i/50.)+np.random.randn(1))[0]
+    print "Entered while of Plots"
+    # Current time on x-axis, random numbers on y-axis
+    x = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    #y = (np.cos(k*i/50.)*np.cos(i/50.)+np.random.randn(1))[0]
+    y = sentiment.main()
+    # To update plot data
+    print "X", x, " + Y ", y
+    s.write(dict(x=x, y=y))
 
-   # To update plot data
-   s.write(dict(x=x, y=y))
-
-   #     Write numbers to stream to append current data on plot,
-   #     write lists to overwrite existing data on plot
-
-   time.sleep(1)  # desired time intervals
+    #     Write numbers to stream to append current data on plot,
+    #     write lists to overwrite existing data on plot
+    # time.sleep(5)  # desired time intervals
 # Close the stream when done plotting
 s.close()
 
