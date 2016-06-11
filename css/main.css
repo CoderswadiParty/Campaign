@@ -1,0 +1,9 @@
+body{
+  background-color: #eceff1
+}
+
+img{
+  max-height: 250px;
+  margin:auto;
+  padding: 0px;
+}

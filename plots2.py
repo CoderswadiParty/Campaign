@@ -5,12 +5,12 @@ import numpy as np
 import time
 import datetime
 import random
-import sentiment
+import sentiment2
 
 py.sign_in('SamarthJain', 'zse4msy081')
 
 stream_ids = tls.get_credentials_file()['stream_ids']
-stream_id = stream_ids[0]
+stream_id = stream_ids[1]
 # Make instance of stream id object
 stream_1 = go.Stream(
    token=stream_id,  # link stream id to 'token' key
@@ -34,13 +34,15 @@ layout = go.Layout(title='Time Series')
 fig = go.Figure(data=data, layout=layout)
 
 # Send fig to Plotly, initialize streaming plot, open new tab
-py.plot(fig, filename='python-streaming',auto_open=False)
+py.plot(fig, filename='python-streaming1',auto_open=False)
 
 # We will provide the stream link object the same token that's associated with the trace we wish to stream to
 s = py.Stream(stream_id)
 
 # We then open a connection
 s.open()
+
+# (*) Import module keep track and format current time
 
 
 i = 0    # a counter
@@ -54,7 +56,7 @@ while True:
     # Current time on x-axis, random numbers on y-axis
     x = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     #y = (np.cos(k*i/50.)*np.cos(i/50.)+np.random.randn(1))[0]
-    y = sentiment.main()
+    y = sentiment2.main()
     # To update plot data
     print "X", x, " + Y ", y
     s.write(dict(x=x, y=y))

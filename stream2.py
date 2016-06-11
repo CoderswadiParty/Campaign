@@ -56,7 +56,7 @@ class StdOutListener(StreamListener):
 		print status
 
 def execute():
-	stream.filter(track=['Hillary','Clinton', 'Clintons', 'hillaryclinton', 'imwithher','neverhillary','sheswithus'], languages=["en"])
+	stream.filter(track=['Donald','Trump', 'Drumpf', 'donaldtrump', 'makeamericagreatagain','trump2016','gop'], languages=["en"])
 
 def main():
 
@@ -70,7 +70,7 @@ def main():
 	# while (t1 - t3) < 300:
 	# 	t1 = time.time()
 
-	stream.filter(track=['Hillary','Clinton', 'Clintons', 'hillaryclinton', 'imwithher','neverhillary','sheswithus'], languages=["en"])
+	stream.filter(track=['Donald','Trump', 'Drumpf', 'donaldtrump', 'makeamericagreatagain','trump2016','gop'], languages=["en"])
 
 	#print len(tweets)
 	#for i in tweets:
