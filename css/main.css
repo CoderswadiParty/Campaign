@@ -16,9 +16,13 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: scroll;
   background-image: url(../img/BG.jpg);
   font-weight: lighter;
+}
+
+#iframe {
+  float: left;
 }
 
 #particle-canvas {

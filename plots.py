@@ -22,7 +22,7 @@ trace1 = go.Scatter(
    x=[],
    y=[],
    mode='lines+markers',
-   stream=stream_1         # (!) embed stream id, 1 per trace
+   stream=stream_1        # (!) embed stream id, 1 per trace
 )
 
 data = go.Data([trace1])
