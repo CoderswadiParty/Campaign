@@ -12,10 +12,38 @@
         <h4>2016 US Democratic Presidential Candidate</h4>
       </div>
       <hr>
-      <div class="row" id="iframe">
+
+      <div class="row" id="iframe_short_term" style="float:left">
           <iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~SamarthJain/0.embed"></iframe>
       </div>
-    </div>
+      <div class="row" id="iframe_long_term" style="float:right">
+          <iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~AhanM/4.embed"></iframe>
+      </div>
+      <!--
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-primary" id="short_term">
+          <input type="radio" name="options" id="option1" autocomplete="off"> Radio 1
+        </label>
+
+        <script>
+          $('#short_term').on('click', function () {
+             $(option1).button('toggle')
+             $('#iframe_long_term').hide();
+             $('#iframe_short_term').show();
+          })
+        </script>
+        <label class="btn btn-primary">
+          <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+        </label>
+        <script>
+          $('#short_term').on('click', function () {
+             $(option2).button('toggle')
+             $('#iframe_long_term').hide();
+             $('#iframe_short_term').show();
+          })
+        </script>
+      </div>
+      -->
 
   </body>
 </html>

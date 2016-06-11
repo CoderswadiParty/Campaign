@@ -21,9 +21,11 @@ body {
   font-weight: lighter;
 }
 
+/*
 #iframe {
   float: left;
 }
+*/
 
 #particle-canvas {
   width: 100%;
