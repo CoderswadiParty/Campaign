@@ -34,7 +34,7 @@ def main():
                     score = request_json['aggregate']['score']
                     value += score*likes
                     stream.tweets.pop(0)
-                    if(counter == 3):
+                    if(counter == 1):
                         break
 
                 else: #if the language isn't english spanish french or german
