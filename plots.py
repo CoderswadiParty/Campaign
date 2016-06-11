@@ -7,6 +7,8 @@ from datetime import datetime
 import random
 import sentiment
 
+py.sign_in('jsamarth', 'tyely06utl')
+
 stream_ids = tls.get_credentials_file()['stream_ids']
 stream_id = stream_ids[0]
 # Make instance of stream id object

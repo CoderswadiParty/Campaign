@@ -1,0 +1,392 @@
+Hillary = > ["Emails","Google","President", "FBI", "First Female president","Crooked", "Democrat", "Wall Street"]
+Trump = > ["GOP", "RT", "Establishment of GOP elites", "Libertarian", "Racist", "Sexist Democrats", "Legacy of Leading on Women", "GOP hardliners", "RINO"]
+{
+    "concepts": [
+        {
+            "concept": "Clinton",
+            "occurrences": 3
+        },
+        {
+            "concept": "George H W Bush",
+            "occurrences": 1
+        },
+        {
+            "concept": "Trump",
+            "occurrences": 2
+        },
+        {
+            "concept": "Bill Clinton",
+            "occurrences": 1
+        },
+        {
+            "concept": "Republikaner Romney",
+            "occurrences": 1
+        },
+        {
+            "concept": "CameronJJJ",
+            "occurrences": 1
+        },
+        {
+            "concept": "president",
+            "occurrences": 2
+        },
+        {
+            "concept": "wählen",
+            "occurrences": 2
+        },
+        {
+            "concept": "t co",
+            "occurrences": 2
+        },
+        {
+            "concept": "weder Trump noch Clinton wählen https",
+            "occurrences": 1
+        },
+        {
+            "concept": "George H W Bush left",
+            "occurrences": 1
+        },
+        {
+            "concept": "guess Bill Clinton",
+            "occurrences": 1
+        },
+        {
+            "concept": "one lifetime https",
+            "occurrences": 1
+        },
+        {
+            "concept": "IBM s WATSON",
+            "occurrences": 1
+        },
+        {
+            "concept": "ever become",
+            "occurrences": 1
+        },
+        {
+            "concept": "RT CameronJJJ",
+            "occurrences": 1
+        },
+        {
+            "concept": "annoying enough",
+            "occurrences": 1
+        },
+        {
+            "concept": "FIRST LADY",
+            "occurrences": 1
+        },
+        {
+            "concept": "H W Bush left this magnanimous",
+            "occurrences": 1
+        },
+        {
+            "concept": "annoying enough to be a politician",
+            "occurrences": 1
+        },
+        {
+            "concept": "season than Trump or Clinton",
+            "occurrences": 1
+        },
+        {
+            "concept": "entity to engender more contempt",
+            "occurrences": 1
+        },
+        {
+            "concept": "bipartisan",
+            "occurrences": 1
+        }
+    ]
+}
+
+{
+    "concepts": [
+        {
+            "concept": "Clinton",
+            "occurrences": 2
+        },
+        {
+            "concept": "Hillary Clinton",
+            "occurrences": 1
+        },
+        {
+            "concept": "Donald Trump",
+            "occurrences": 1
+        },
+        {
+            "concept": "Bush",
+            "occurrences": 1
+        },
+        {
+            "concept": "RT",
+            "occurrences": 2
+        },
+        {
+            "concept": "vote",
+            "occurrences": 2
+        },
+        {
+            "concept": "warmongers like Bush",
+            "occurrences": 1
+        },
+        {
+            "concept": "don t vote",
+            "occurrences": 1
+        },
+        {
+            "concept": "Donald Trump https",
+            "occurrences": 1
+        },
+        {
+            "concept": "presidential election",
+            "occurrences": 1
+        },
+        {
+            "concept": "RT samhwils",
+            "occurrences": 1
+        },
+        {
+            "concept": "RT shayfromonline",
+            "occurrences": 1
+        },
+        {
+            "concept": "ve waited",
+            "occurrences": 1
+        },
+        {
+            "concept": "choices are Hillary Clinton and Donald",
+            "occurrences": 1
+        },
+        {
+            "concept": "years to vote in a presidential",
+            "occurrences": 1
+        }
+    ]
+}
+
+{
+    "concepts": [
+        {
+            "concept": "Clinton",
+            "occurrences": 4
+        },
+        {
+            "concept": "Hillary Clinton",
+            "occurrences": 2
+        },
+        {
+            "concept": "t co",
+            "occurrences": 6
+        },
+        {
+            "concept": "https",
+            "occurrences": 7
+        },
+        {
+            "concept": "State Department",
+            "occurrences": 1
+        },
+        {
+            "concept": "Another",
+            "occurrences": 1
+        },
+        {
+            "concept": "Google",
+            "occurrences": 1
+        },
+        {
+            "concept": "Trump",
+            "occurrences": 1
+        },
+        {
+            "concept": "WyfYsaeQtu",
+            "occurrences": 1
+        },
+        {
+            "concept": "Another sign Hillary Clinton s State",
+            "occurrences": 1
+        },
+        {
+            "concept": "Google denies manipulating search results",
+            "occurrences": 1
+        },
+        {
+            "concept": "emails",
+            "occurrences": 2
+        },
+        {
+            "concept": "RT",
+            "occurrences": 2
+        },
+        {
+            "concept": "emails Clinton tells Trump",
+            "occurrences": 1
+        },
+        {
+            "concept": "favor Hillary Clinton https",
+            "occurrences": 1
+        },
+        {
+            "concept": "FBI investigating drone emails",
+            "occurrences": 1
+        },
+        {
+            "concept": "sale via NYPost https",
+            "occurrences": 1
+        },
+        {
+            "concept": "Clinton server probe",
+            "occurrences": 1
+        },
+        {
+            "concept": "WyfYsaeQtu RT jaketapper",
+            "occurrences": 1
+        },
+        {
+            "concept": "YGYnwsRcQv RT wikileaks",
+            "occurrences": 1
+        },
+        {
+            "concept": "account https",
+            "occurrences": 1
+        },
+        {
+            "concept": "forza https",
+            "occurrences": 1
+        },
+        {
+            "concept": "FBI investigating drone emails as part",
+            "occurrences": 1
+        },
+        {
+            "concept": "emails Clinton tells Trump to delete",
+            "occurrences": 1
+        },
+        {
+            "concept": "zioni di forza https",
+            "occurrences": 1
+        },
+        {
+            "concept": "RIGHT",
+            "occurrences": 1
+        }
+    ]
+}
+{
+    "concepts": [
+        {
+            "concept": "Clinton",
+            "occurrences": 4
+        },
+        {
+            "concept": "Hillary Clinton",
+            "occurrences": 2
+        },
+        {
+            "concept": "Clinton Foundation Donor Bought Seat",
+            "occurrences": 1
+        },
+        {
+            "concept": "Hillary Clinton Imitates Joe Stalin",
+            "occurrences": 1
+        },
+        {
+            "concept": "Nuclear Weapons Advisor",
+            "occurrences": 1
+        },
+        {
+            "concept": "QePIhLRUje Elizabeth Warren",
+            "occurrences": 1
+        },
+        {
+            "concept": "Pacific Partnership Record",
+            "occurrences": 1
+        },
+        {
+            "concept": "Muhammad Ali",
+            "occurrences": 1
+        },
+        {
+            "concept": "Bill Clinton",
+            "occurrences": 1
+        },
+        {
+            "concept": "t co",
+            "occurrences": 4
+        },
+        {
+            "concept": "Official Trans",
+            "occurrences": 1
+        },
+        {
+            "concept": "Clinton Imitates Joe Stalin And Sterilizes",
+            "occurrences": 1
+        },
+        {
+            "concept": "Reveal How Clinton Foundation Donor Bought",
+            "occurrences": 1
+        },
+        {
+            "concept": "Ready To Fight For Hillary Clinton",
+            "occurrences": 1
+        },
+        {
+            "concept": "https",
+            "occurrences": 4
+        },
+        {
+            "concept": "L",
+            "occurrences": 1
+        },
+        {
+            "concept": "NiggaCommentary",
+            "occurrences": 1
+        },
+        {
+            "concept": "YouTube",
+            "occurrences": 1
+        },
+        {
+            "concept": "Hillary s Nuclear Weapons Advisor https",
+            "occurrences": 1
+        },
+        {
+            "concept": "Bill Clinton per Muhammad Ali",
+            "occurrences": 1
+        },
+        {
+            "concept": "RT",
+            "occurrences": 2
+        },
+        {
+            "concept": "L orazione funebre",
+            "occurrences": 1
+        },
+        {
+            "concept": "ou RT NiggaCommentary",
+            "occurrences": 1
+        },
+        {
+            "concept": "gotta vo",
+            "occurrences": 1
+        },
+        {
+            "concept": "theyoungturks https",
+            "occurrences": 1
+        },
+        {
+            "concept": "m Ready",
+            "occurrences": 1
+        },
+        {
+            "concept": "YouTube video",
+            "occurrences": 1
+        },
+        {
+            "concept": "liked a YouTube video from theyoungturks",
+            "occurrences": 1
+        },
+        {
+            "concept": "QePIhLRUje Elizabeth Warren On MSNBC",
+            "occurrences": 1
+        }
+    ]
+}
