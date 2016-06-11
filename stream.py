@@ -6,11 +6,12 @@ from tweepy import Stream
 import ast
 import time
 import json
+
 from httplib import IncompleteRead
 # import pandas as pd
 # import matplotlib.pyplot as plt
 
-#Variables that contains the user credentials to access Twitter API 
+#Variables that contains the user credentials to access Twitter API
 access_token = "569187100-JNgzMZAa8wY8Y0JraFNQzqPuYPBmEH7BLzk3YiE4"
 access_token_secret = "0dS8L202e6HobfGhts4Vn3Z818mz5sjThYeH8M9vKJVyq"
 consumer_key = "sFH28qEj9uf9zWt8Ecws9h8jS"
@@ -27,9 +28,9 @@ class StdOutListener(StreamListener):
 
 	def on_data(self, data):
 		t2 = time.time()
-		print t2 - t1
+		# print t2 - t1
 		if t2 - t1 < 5:
-			
+
 			json_load = json.loads(data)
 			# if json_load["text"][:2] != "RT" and json_load["retweeted"] == False:
 			# 	print json_dict["text"]
@@ -41,14 +42,14 @@ class StdOutListener(StreamListener):
 
 				tweets.append((s, json_load["favorite_count"]))
 
-				print tweets[-1]
-				print "------"
+				# print tweets[-1]
+				# print "------"
 
 			return True
-				
+
 			# if json_load["text"][:2] != "RT" and json_load["retweeted"] == False:
-		
-			
+
+
 		return False
 
 	def on_error(self, status):
@@ -71,7 +72,12 @@ def main():
 
 	stream.filter(track=['Hillary','Clinton', 'Clintons', 'hillaryclinton', 'imwithher','neverhillary','sheswithus'], languages=["en"])
 
-	print len(tweets)
-
+	#print len(tweets)
+	#for i in tweets:
+		#print i
 if __name__ == '__main__':
 	main()
+
+def getTweets():
+	main()
+	return tweets
