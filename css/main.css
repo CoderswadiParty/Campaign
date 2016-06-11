@@ -1,5 +1,29 @@
-body{
-  background-color: #eceff1
+h1 {
+  color: #FFFFFF;
+  font-size: 55;
+  font-weight: lighter;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 25;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(../img/BG.jpg);
+  font-weight: lighter;
+}
+
+#particle-canvas {
+  width: 100%;
+  height: 100%;
 }
 
 img{
