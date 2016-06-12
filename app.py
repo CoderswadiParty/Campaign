@@ -1,7 +1,7 @@
 from flask import Flask, render_template, json, request, session, url_for, escape, redirect
 import threading
-import plots
-import plots2
+#import plots
+#import plots2
 app = Flask(__name__)
 
 @app.route('/')
