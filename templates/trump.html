@@ -5,20 +5,55 @@
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="../assets/bootstrap.min.js"></script>
     <div class="container" style="text-align:center; padding-top:10px;">
+      <button class="btn btn-primary" style="float:left; color: #FFFFFF">
+        <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+        <a href="index.html" style="color:#FFFFFF;"> Home</a>
+      </button>
       <div class="row">
         <img src="../img/trump.jpg" class="img-responsive img-circle"/>
-        <h1> Donald Trump</h1>
+        <h1> Donald Trump </h1>
         <h4>2016 US Republican Presidential Candidate</h4>
       </div>
       <hr>
-      <div class="row" id="iframe_short_term" style="float:left">
-          <iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~SamarthJain/1.embed"></iframe>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a href="#real" aria-controls="home" role="tab" data-toggle="tab">Real Time Analysis</a></li>
+            <li role="presentation" style="padding-top:50px;"><a href="#long" aria-controls="profile" role="tab" data-toggle="tab">Long Term Analysis</a></li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="real">
+            <div class="col-md-8">
+              <iframe width="600" height="450" frameborder="0" scrolling="yes" src="https://plot.ly/~SamarthJain/1.embed"></iframe>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="long">
+            <div class="col-md-8">
+              <iframe width="600" height="450" frameborder="0" scrolling="yes" src="https://plot.ly/~AhanM/19.embed"></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row" id="iframe_long_term" style="float:right">
-          <iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~AhanM/4.embed"></iframe>
-      </div>
-    </div>
-
+      <!-- <div class="row">
+        <h3>Keywords most associated with Hillary Clinton</h3>
+      </div> -->
+      <div class="custom jumbotron">
+         <h3><strong>Keywords most associated with Donald Trump</strong></h3>
+         <br>
+         <a class="btn btn-success btn-lg" href="#" role="button">Make America Great Again</a>
+         <a class="btn btn-default btn-lg" role="button">GOP Hardliners</a>
+         <a class="btn btn-warning btn-lg" role="button">Racist</a>
+         <a class="btn btn-danger btn-lg" role="button">Sexist Democrat</a>
+         <a class="btn btn-danger btn-lg" role="button">RINO</a>
+         <a class="btn btn-danger btn-lg" role="button">Legacy of Leading on Women</a>
+     </div>
+      <!--<iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~SamarthJain/0.embed"></iframe>-->
+      <!--<iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~AhanM/4.embed"></iframe>-->
   </body>
 </html>
+
+    <!--  -->

@@ -26,6 +26,13 @@ body {
   font-weight: lighter;
 }
 
+.custom.jumbotron {
+  background-color: #aaaaaa;
+  opacity: 0.75;
+  color: black;
+  margin-top: 5%;
+}
+
 /*
 #iframe {
   float: left;
