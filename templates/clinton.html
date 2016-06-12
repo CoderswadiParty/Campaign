@@ -1,10 +1,12 @@
 <html>
   <head>
     <title>Campaign</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="../assets/bootstrap.min.js"></script>
     <div class="container" style="text-align:center; padding-top:10px;">
       <div class="row">
         <img src="../img/clinton2.jpg" class="img-responsive img-circle"/>
@@ -12,38 +14,30 @@
         <h4>2016 US Democratic Presidential Candidate</h4>
       </div>
       <hr>
-
-      <div class="row" id="iframe_short_term" style="float:left">
-          <iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~SamarthJain/0.embed"></iframe>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a href="#real" aria-controls="home" role="tab" data-toggle="tab">Real Time Analysis</a></li>
+            <li role="presentation" style="padding-top:50px;"><a href="#long" aria-controls="profile" role="tab" data-toggle="tab">Long Term Analysis</a></li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="real">
+            <div class="col-md-8">
+              <iframe width="600" height="450" frameborder="0" scrolling="yes" src="https://plot.ly/~SamarthJain/0.embed"></iframe>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="long">
+            <div class="col-md-8">
+              <iframe width="600" height="450" frameborder="0" scrolling="yes" src="https://plot.ly/~AhanM/4.embed"></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row" id="iframe_long_term" style="float:right">
-          <iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~AhanM/4.embed"></iframe>
+      <div class="row">
+        <h3>Keywords most associated with Hillary Clinton</h3>
       </div>
-      <!--
-      <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary" id="short_term">
-          <input type="radio" name="options" id="option1" autocomplete="off"> Radio 1
-        </label>
-
-        <script>
-          $('#short_term').on('click', function () {
-             $(option1).button('toggle')
-             $('#iframe_long_term').hide();
-             $('#iframe_short_term').show();
-          })
-        </script>
-        <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
-        </label>
-        <script>
-          $('#short_term').on('click', function () {
-             $(option2).button('toggle')
-             $('#iframe_long_term').hide();
-             $('#iframe_short_term').show();
-          })
-        </script>
-      </div>
-      -->
-
+      <!--<iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~SamarthJain/0.embed"></iframe>-->
+      <!--<iframe width="550" height="550" frameborder="0" scrolling="yes" src="https://plot.ly/~AhanM/4.embed"></iframe>-->
   </body>
 </html>
