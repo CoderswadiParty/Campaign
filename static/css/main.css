@@ -1,0 +1,51 @@
+h1 {
+  color: #FFFFFF;
+  font-size: 55;
+  font-weight: lighter;
+}
+
+h4,p,h3 {
+  color: #FFFFFF;
+  font-weight: lighter;;
+  font-size: 25;
+}
+
+#description {
+  font-weight: lighter;
+  font-size: 30;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background-image: url(../img/BG.jpg);
+  font-weight: lighter;
+}
+
+.custom.jumbotron {
+  background-color: #aaaaaa;
+  opacity: 0.75;
+  color: black;
+  margin-top: 5%;
+}
+
+/*
+#iframe {
+  float: left;
+}
+*/
+
+#particle-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+img{
+  max-height: 250px;
+  margin:auto;
+  padding: 0px;
+}
