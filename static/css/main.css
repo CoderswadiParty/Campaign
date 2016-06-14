@@ -4,6 +4,11 @@ h1 {
   font-weight: lighter;
 }
 
+a {
+  colot: #FFFFFF;
+  font-weight: normal;
+}
+
 h4,p,h3 {
   color: #FFFFFF;
   font-weight: lighter;;
